@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            color: rgb(51,51,51);
+           
+        }
+        h3{
+            color: rgb(38, 80, 115);
+        }
+        p{
+            color: rgb(122, 192, 217);
+            
+        }
+        div{
+            margin: 0 auto; 
+            height: 200px;
+            width: 1125px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            background-size: 100%;
+            
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(111, 92, 182);
+            font-weight: 700;
+        }
+        /*                   11111111111111111                           */
+         
+        div:hover{
+            background-size: 100%;
+        }
+        /* 11111111111111111111111111111111 */
+         /* 导航及上方元素 */
+        .head1{
+            height: 40px;
+            border-color: rgba(188, 180, 190,0.5);
+            background-color:rgba(254, 254, 254,0.7) ;
+        }
+        input{
+            width: 200px;
+            height: 25px;
+            background-color:rgba(211, 201, 200,0.3) ;
+            border-color: rgba(227, 224, 227,0.5);
+            border-radius: 7%;
+            
+        }
+        input:focus{
+            outline: none;
+        }
+        button{
+           float: left;
+            width: 25px;
+            height: 27px;
+            margin-right: 3px;
+            background-image: url(../img/哈密瓜.png);
+            background-size:100%;
+            background-color: transparent;
+            border-color: transparent;
+            background-repeat: no-repeat;
+        }
+        .head2{
+            height: 579px;
+            background-image: url(../img/1b91d753cbb64883aee1dacb31bea7bd.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0px -60px ;
+        }
+        .nav{
+            height: 50px;
+            background-color: rgb(246, 249, 251);
+        }
+        .all{
+            width: auto;
+            height: auto;
+            background-image: url(../img/backiee-62419.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .head11{
+            width: 500px;
+            height: 100px;
+            margin-top: 20%;
+            font-family: FZShuTi;
+            font-size: 50px;
+            text-align: center;
+            -webkit-text-stroke:0.1px rgb(23, 24, 24);
+        }
+       .head11>.p2{
+       line-height:40px;
+       color:rgb(0, 98, 179);
+       
+       font-size: 30px;
+       }
+       .head11>.p1{
+        color: rgb(51,51,51);
+       }
+       .head11>.p3>.p31{
+        width: 100%;
+        height: 0px;
+        border-top-style: solid;
+        transition: all .5s;
+       }
+       .head11>.p3{
+        width: 50%;
+        height: 29px;
+       
+       }
+       .p31{
+        border-color: black;
+       }
+       .p3:hover .p31{
+        width: 0px;
+        
+       }
+       .nav>ul{
+        list-style-type: none;
+        
+       }
+       li{
+        margin-left: 200px;
+        margin-top: 8px;
+       }
+       /* 导航下方元素 */
+       .content{
+        height: auto;
+        background-color:rgba(227, 224, 227,0.5) ;
+       }
+       /* 内容1 */
+       .c1{
+        height: auto;
+       }
+       .namec1{
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-family: YouYuan;
+        letter-spacing: 10px;
+        color: rgb(0, 169, 183);
+        font-weight: 700;
+       }
+       .contentc1{
+        height: 570px;
+       }
+       .contentc11{
+        height: 570px;
+        width: 49%;
+        float: left;
+       
+       }
+       .contentc12{
+        height: 570px;
+        width: 49%;
+        float: right;
+       }
+       .contentc11>.up{
+        height: 130px;
+        width: 100%;
+        
+       }
+       .contentc11>.down{
+        height: 437px;
+        width: 100%;
+        background-image: url(../img/6eb7cfb7623840dc471a295acb0b3291_r.jpg);
+        
+   
+        background-repeat: no-repeat;
+       }
+       .contentc12>.up{
+        height: 130px;
+        width: 100%;
+       }
+       .contentc12>.down{
+        height: 437px;
+        width: 100%;
+        background-image: url(../img/d4941a484b080988e45366842f285ddecf09362d.jpg);
+        background-repeat: no-repeat;
+       }
+       /* 内容2 */
+       .c2{
+        height: auto;
+       }
+       .namec2{
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-family: YouYuan;
+        letter-spacing: 10px;
+        color: rgb(0, 169, 183);
+        font-weight: 700;
+       }
+       .contentc2{
+        height: 570px;
+       
+       }
+       .contentc21{
+        height: 570px;
+        width: 49%;
+        float: left;
+       }
+       .contentc22{
+        height: 570px;
+        width: 49%;
+        float: right;
+       }
+       .contentc21>.up{
+        height: 130px;
+        width: 100%;
+       }
+       .contentc21>.down{
+        height: 437px;
+        width: 100%;
+        background-image: url(../img/20190621110306_tlCjv.jpeg);
+        background-repeat: no-repeat;
+       }
+       .contentc22>.up{
+        height: 130px;
+        width: 100%;
+       }
+       .contentc22>.down{
+        height: 437px;
+        width: 100%;
+        background-image: url(../img/1.jpeg);
+        background-repeat: no-repeat;
+       }
+       /* 内容3 */
+       .c3{
+        height: auto;
+       }
+       .namec3{
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-family: YouYuan;
+        letter-spacing: 10px;
+        color: rgb(0, 169, 183);
+        font-weight: 700;
+       }
+       .contentc3{
+        height: 570px;
+        
+       }
+       .contentc31{
+        height: 570px;
+        width: 49%;
+        float: left;
+       }
+       .contentc32{
+        height: 570px;
+        width: 49%;
+        float: right;
+       }
+       .contentc31>.up{
+        height: 130px;
+        width: 100%;
+       }
+       .contentc31>.down{
+        height: 437px;
+        width: 100%;
+        background-image: url(../img/370EDB37-1408-4061-91E9-C58E897FCF89.png);
+        background-repeat: no-repeat;
+        
+       }
+       .contentc32>.up{
+        height: 130px;
+        width: 100%;
+       }
+       .contentc32>.down{
+       height: 437px;
+        width: 100%;
+        
+        background-image: url(../img/20190220140914_bhjhs.jpg);
+        background-repeat: no-repeat;
+       }
+       .up>p{
+       font-weight: 700;
+       }
+       .up{
+        border-top-color: rgba(188, 180, 190,0.5);
+        border-bottom-color: rgba(188, 180, 190,0.5);
+       }
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div class="head1">
+        <div style="height:auto;width: 300px;">
+            <input type="text" placeholder="随便打打">
+            <button > </button>
+        </div>
+    </div>
+    <div class="head2">
+        <div class="head11">
+           <p class="p1">广志</p>
+           <p class="p2">今天只做一件事...</p>
+           <div class="p3">
+            <div class="p31">
+
+            </div>
+
+
+           </div>
+
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li style="float: left"><a href="../html/index2.html">自然</a></li>
+            <li style="float: left;color:  rgb(111, 92, 182);font-weight: 700;"><a href="../html/index3.html">动漫</a></li>
+            <li style="float: left"><a href="../html/index4.html">音乐</a></li>
+            <li li style="float: left"><a href="../html/index.html">关于</a></li>
+        </ul>
+    </div>
+    <!-- 内容 -->
+    <div class="content">
+        <div class="c1">
+            <div class="namec1">动漫推荐</div>
+            <div class="contentc1">
+                <div class="contentc11">
+                    <div class="up">
+                        <h3 style="text-align: center;">《玉子爱情故事》</h3>
+                        <p style="text-indent: 10px;">“青春总是焦虑的，连一勺砂糖溶于杯中的时间都等不及。后悔带来的苦涩，是对过去的见证，终将逐一化为杯中咖啡的味道。”</p>
+
+                    </div>
+                    <div class="down"></div>
+                </div>
+                <div class="contentc12">
+                    <div class="up">
+                        <h3 style="text-align: center">《紫罗兰永恒花园》</h3>
+                        <p style="text-indent: 10px;">"花无凋零之日，意无传递之时，爱情亘古不变，紫罗兰与世长存。"</p>
+                    </div>
+                    <div class="down"></div>
+                </div>
+            
+        </div>
+        <div class="c2">
+            <div class="namec2">动漫推荐</div>
+            <div class="contentc2">
+                <div class="contentc21">
+                    <div class="up">
+                        <h3 style="text-align: center">《可塑性记忆》</h3>
+                        <p style="text-indent: 10px;">"命运之环 轮回反复 思绪终将合而为一。" </p>
+                    </div>
+                    <div class="down"></div>
+                </div>
+                <div class="contentc22">
+                    <div class="up">
+                        <h3 style="text-align: center">《冰海战记》</h3>
+                        <p style="text-indent: 10px;">"这时主对他说，把剑收起来。凡拔剑者，必因剑而亡。”</p>
+                        </div>
+                    <div class="down"></div>
+                </div>
+            </div>
+        </div>
+        <div class="c3">
+            <div class="namec3">动漫推荐</div>
+            <div class="contentc3">
+                <div class="contentc31">
+                    <div class="up">
+                        <h3 style="text-align: center">《为美好的世界献上祝福》</h3>
+                        <p style="text-indent: 10px;">“冬去春至，我在这里醒来，在这里睡去，在这里生活。现在 向这个没有道理 漫无目的 残酷的 美好的世界 献！上！祝！福！AND YOU！”</p>
+                    </div>
+                    <div class="down"></div>
+                </div>
+                <div class="contentc32">
+                    <div class="up">
+                        <h3 style="text-align: center">《未闻花名》</h3>
+                        <p style="text-indent: 10px;">“岁月的暖，漫过时间的河，抚过久闭的心扉，我在时光斑驳深处，聆听到花开的声音。”</p>
+                    </div>
+                    <div class="down"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
